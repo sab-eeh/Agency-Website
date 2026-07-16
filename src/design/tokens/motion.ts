@@ -33,6 +33,6 @@ export const motion = {
     hover: 1.02,
     tap: 0.98,
   },
-} as const;
+} as const
 
-export type Motion = typeof motion;
+export type Motion = typeof motion

@@ -1,13 +1,43 @@
-:root {
-  --radius-small: 0.5rem;
-  --radius-medium: 0.75rem;
-  --radius-large: 1rem;
-  --radius-xl: 1.5rem;
-  --radius-2xl: 2rem;
-  --radius-pill: 9999px;
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
 
-  --shadow-soft: 0 8px 30px rgba(15, 23, 42, 0.06);
-  --shadow-card: 0 12px 40px rgba(15, 23, 42, 0.08);
-  --shadow-hover: 0 18px 50px rgba(15, 23, 42, 0.12);
-  --shadow-overlay: 0 30px 80px rgba(15, 23, 42, 0.2);
+.container {
+  width: min(100% - 3rem, var(--container-width));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: clamp(5rem, 8vw, 8rem);
+}
+
+.surface {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: var(--color-border-subtle);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }

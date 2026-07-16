@@ -41,9 +41,9 @@
    Typography
    -------------------------------------------------------------------------- */
 
-  --font-heading: var(--font-general-sans);
-  --font-body: var(--font-inter);
-  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-general-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
   /* --------------------------------------------------------------------------
    Radius
@@ -91,6 +91,8 @@
    -------------------------------------------------------------------------- */
 
   --container-width: 1280px;
+  --container-width-narrow: 768px;
+  --container-width-wide: 1440px;
   --container-padding: 24px;
   --navbar-height: 84px;
 

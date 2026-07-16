@@ -30,6 +30,6 @@ export const themeConfig = {
 
     navbarHeight: "var(--navbar-height)",
   },
-} as const;
+} as const
 
-export type ThemeConfig = typeof themeConfig;
+export type ThemeConfig = typeof themeConfig

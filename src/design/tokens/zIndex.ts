@@ -31,6 +31,6 @@ export const zIndex = {
   toast: 900,
 
   maximum: 9999,
-} as const;
+} as const
 
-export type ZIndex = typeof zIndex;
+export type ZIndex = typeof zIndex

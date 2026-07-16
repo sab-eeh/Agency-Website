@@ -8,8 +8,8 @@ const projects = [
 
 export function FeaturedWork() {
   return (
-    <Section background="default" padding="md">
-      <Container size="xl">
+    <Section background="default" spacing="md">
+      <Container size="wide">
         <div className="space-y-6">
           <div className="max-w-2xl space-y-3">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-600">Featured work</p>

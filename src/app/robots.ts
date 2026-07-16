@@ -1,1 +1,10 @@
-export const GET = async () => new Response('User-agent: *\nDisallow:')
+import type { MetadataRoute } from "next";
+
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: {
+      userAgent: "*",
+      disallow: "",
+    },
+  };
+}
