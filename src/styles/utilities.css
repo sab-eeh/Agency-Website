@@ -1,0 +1,13 @@
+:root {
+  --radius-small: 0.5rem;
+  --radius-medium: 0.75rem;
+  --radius-large: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-pill: 9999px;
+
+  --shadow-soft: 0 8px 30px rgba(15, 23, 42, 0.06);
+  --shadow-card: 0 12px 40px rgba(15, 23, 42, 0.08);
+  --shadow-hover: 0 18px 50px rgba(15, 23, 42, 0.12);
+  --shadow-overlay: 0 30px 80px rgba(15, 23, 42, 0.2);
+}
